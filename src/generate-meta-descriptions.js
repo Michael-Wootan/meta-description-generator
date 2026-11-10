@@ -511,7 +511,7 @@ async function processPages(state) {
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 async function main() {
-  const modeStr = AUDIT ? 'AUDIT to no changes will be made' : 'LIVE';
+  const modeStr = AUDIT ? 'AUDIT, no changes will be made' : 'LIVE';
   if (!TOKEN) { console.error('❌ SHOPIFY_ADMIN_TOKEN not set'); process.exit(1); }
   console.log(`\n📋 Meta Description Generator: ${BRAND}`);
   console.log(`   ${new Date().toLocaleString()}`);

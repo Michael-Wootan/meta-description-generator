@@ -1,0 +1,17 @@
+{
+  "name": "meta-description-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Audits every product, collection, article and page in a Shopify store and writes missing or badly sized meta descriptions from intent-based templates.",
+  "main": "src/generate-meta-descriptions.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "audit": "node src/generate-meta-descriptions.js --audit",
+    "apply": "node src/generate-meta-descriptions.js",
+    "test": "node scripts/test-meta.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "dotenv": "^17.3.1"
+  }
+}

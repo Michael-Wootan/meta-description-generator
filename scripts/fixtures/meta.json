@@ -1,0 +1,48 @@
+{
+  "brand": "Acme Supply Co.",
+  "keywordMap": {
+    "/products/ethiopia-natural-light-roast": { "keyword": "Ethiopian light roast coffee", "intent": "transactional", "traffic": 280 },
+    "/products/espresso-blend": { "keyword": "espresso beans", "intent": "commercial", "traffic": 196 },
+    "/collections/single-origin": { "keyword": "single origin coffee", "intent": "transactional", "traffic": 140 },
+    "/collections/wholesale-coffee": { "keyword": "wholesale coffee beans", "intent": "commercial", "traffic": 80 },
+    "/blogs/news/how-to-store-coffee-beans": { "keyword": "how to store coffee beans", "intent": "informational", "traffic": 395 },
+    "/blogs/news/best-coffee-for-pour-over": { "keyword": "coffee for pour over", "intent": "commercial", "traffic": 112 }
+  },
+  "typeDescriptors": {
+    "cold brew concentrate": "ready-to-dilute cold brew",
+    "concentrate": "liquid coffee concentrate",
+    "espresso": "medium-dark espresso roast",
+    "decaf": "water-process decaf",
+    "light roast": "bright, fruit-forward light roast",
+    "dark roast": "full-bodied dark roast",
+    "blend": "balanced everyday blend",
+    "pods": "compostable single-serve pods"
+  },
+  "qualityModifiers": [
+    { "pattern": "single[\\s-]origin", "label": "single-origin" },
+    { "pattern": "organic", "label": "organic" },
+    { "pattern": "small[\\s-]batch", "label": "small-batch" },
+    { "pattern": "wholesale", "label": "wholesale" },
+    { "pattern": "natural", "label": "natural-process" }
+  ],
+  "phrases": {
+    "defaultDescriptor": "specialty coffee",
+    "productTransactional": "Roasted to order in small batches. Order online today.",
+    "productCommercial": "Roasted to order in small batches. See tasting notes and brewing tips, then order online.",
+    "productWholesale": "Bulk bags for cafes and offices, with volume pricing. Request a quote today.",
+    "productDefault": "Roasted to order in small batches and packed fresh the same day. Order online today.",
+    "collectionTransactional": "Freshly roasted specialty coffee in small batches. Browse the full selection and order online today.",
+    "collectionCommercial": "Freshly roasted specialty coffee, with tasting notes for every bag. Shop the full selection online.",
+    "collectionWholesaleNote": "Volume pricing available.",
+    "collectionDefault": "Freshly roasted specialty coffee in small batches, with tasting notes for every bag. Shop the full selection online.",
+    "articleInformational": "everything you need to know, step by step. Read now.",
+    "articleCommercial": "an in-depth guide from {brand} with tasting notes, quality picks and where to buy. Read the full guide.",
+    "articleDefault": "Practical coffee guidance from the {brand} blog. Read the full guide now.",
+    "pageDefault": "{brand} roasts specialty coffee to order in small batches for home brewers, cafes and offices. Shop online today."
+  },
+  "pages": {
+    "faq": "Answers to the most common questions about {brand} coffee, orders, subscriptions and wholesale. Contact us any time if yours is not covered.",
+    "about": "{brand} is a specialty coffee roaster working in small batches, roasting to order for home brewers, cafes and offices. Read our story.",
+    "contact": "Get in touch with the {brand} team for product questions, wholesale inquiries or help with an order. We reply within one business day."
+  }
+}
